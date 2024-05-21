@@ -1,0 +1,65 @@
+/* CSS Variables */
+:root {
+    /* main UI color */
+    --plyr-color-main: darkgray;
+    /* audio controls background */
+    --plyr-audio-controls-background: black;
+    /* audio controls color */
+    --plyr-audio-control-color: white;
+    /* font family for player */
+    --plyr-font-family: sans-serif;
+    /* font size of player  */
+    --plyr-font-size-time: 16px;
+
+    /* Other optional customiziations */
+    --plyr-audio-control-color-hover:  black;
+    --plyr-audio-progress-buffered-background:  black;
+    --plyr-audio-range-track-background: white;
+    --plyr-tooltip-background: white;
+    --plyr-tooltip-color: black; 
+    --plyr-control-icon-size: 16px;
+}
+
+body {
+    background: gray;
+}
+
+/* Layout */
+main {
+    /* Fixed width center align */
+    max-width: 60em;
+    margin-inline: auto;
+
+    background: lightgray;
+}
+
+main img {
+    /* Fit image to container */
+    max-width: 100%;
+    display: block;
+}
+
+/* Primary Content */
+article {
+    /* flow content horizontally */
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+article section {
+    /* keep flex'd child same width */
+    flex: 1;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 40em) {
+    main article {
+        flex-direction: column;
+    }
+}
