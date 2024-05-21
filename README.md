@@ -1,4 +1,6 @@
-# Single Song Promotion
+# Ultimate Assassin's Creed 3 Song, by Smosh
+
+What? A man's gotta eat...
 
 > Playlists more popular than albums 
 
@@ -13,4 +15,5 @@
 * What's old is new agai. This is the [modern mixtape](https://en.wikipedia.org/wiki/Mixtape) or a compilation of curated songs. 
 
 ## Citations
-* Your citations go here
+* [Text for link] (URL)
+[Genius] (https://genius.com/Smosh-ultimate-assassins-creed-3-song-lyrics)
