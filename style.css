@@ -1,27 +1,41 @@
-/* CSS Variables */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 :root {
     /* main UI color */
-    --plyr-color-main: darkgray;
+    --plyr-color-main: navy;
     /* audio controls background */
     --plyr-audio-controls-background: black;
     /* audio controls color */
     --plyr-audio-control-color: white;
     /* font family for player */
-    --plyr-font-family: sans-serif;
+    --plyr-font-family: Josefin sans;
     /* font size of player  */
     --plyr-font-size-time: 16px;
 
     /* Other optional customiziations */
-    --plyr-audio-control-color-hover:  black;
-    --plyr-audio-progress-buffered-background:  black;
+    --plyr-audio-control-color-hover:  navy;
+    --plyr-audio-progress-buffered-background:  navy;
     --plyr-audio-range-track-background: white;
     --plyr-tooltip-background: white;
     --plyr-tooltip-color: black; 
     --plyr-control-icon-size: 16px;
+  
+  --primaryfont: "Josefin Sans";
 }
 
 body {
-    background: gray;
+    background: navy;
+  font-family: Var(--primaryfont)
+  
+}
+
+h1 {
+  text-align: center;
+   margin-bottom: -15px;
+}
+
+h2{
+  text-align: center;
 }
 
 /* Layout */
@@ -30,13 +44,15 @@ main {
     max-width: 60em;
     margin-inline: auto;
 
-    background: lightgray;
+    background: white;
+  padding: 10px;
 }
 
 main img {
     /* Fit image to container */
     max-width: 100%;
     display: block;
+    margin: auto
 }
 
 /* Primary Content */
